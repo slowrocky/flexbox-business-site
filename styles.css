@@ -13,9 +13,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-.mobile {
-  display: none;
-}
+
 
 section {
   width: 100%;
@@ -36,6 +34,10 @@ section h1 {
 header {
   display: flex;
   flex-direction: column;
+}
+
+#mobile {
+  display: none;
 }
 
 
