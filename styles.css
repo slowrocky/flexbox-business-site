@@ -13,6 +13,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.mobile {
+  display: none;
+}
+
 section {
   width: 100%;
   margin-top: 3rem;
@@ -113,6 +117,7 @@ a:hover {
   font-size: 3rem;
   font-weight: 700;
   width: 100%;
+  border: none;
 }
 
 /* equipment */
@@ -187,6 +192,43 @@ footer .contact {
   margin: 1rem 0;
   font-size: 1.5rem;
 }
+/*
+@media only screen and (max-width:450px) {
+  .desktop {
+    display: none;
+  }
 
+  .mobile {
+    display: none;
+    flex-direction: row;
+    
+
+  }
+
+  .mobile .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .mobile nav {
+    background-color: white;
+    background-image: url('./img/menu_icon.png');
+    background-repeat: no-repeat;
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+  }
+
+  .dropdown a {
+    width: 200px;
+  }
+
+  
+}
+*/
 
 
